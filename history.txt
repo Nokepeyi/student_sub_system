@@ -1,1 +1,26 @@
-Git history will be added here
+    1  ssh-keygen -t ed25519 -C "lihlenokepeyi@gmail.com"
+    2  eval "$(ssh-agent -s)"
+    3  ssh-add ~/.ssh/id_ed25519
+    4  cat ~/.ssh/id_ed25519.pub
+    5   cat ~/.ssh/id_ed25519.pub
+    6  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGPkYkRvsjpsVsn/klWQVPoO7Kx/99PaaOHGYbrppyE9 lihlenokepeyi@gmail.com
+    7  ssh -T git@github.com
+    8  git clone git@github.com:Nokepeyi/student_sub_system.git
+    9  rm -rf student_sub_system
+   10  git clone git@github.com:Nokepeyi/student_sub_system.git
+   11  cd student_sub_system
+   12  code .
+   13  touch index.html
+   14  touch about.html
+   15  touch history.txt
+   16  ls
+   17  git add .
+   18  git status
+   19  echo "<h1>Home Page</h1>" > index.html
+   20  echo "<h1>About Page</h1>" > about.html
+   21  echo "Git history will be added here" > history.txt
+   22  git status
+   23  git add .
+   24  git status
+   25  git commit -m "Created and updated project files"
+   26  history > history.txt
